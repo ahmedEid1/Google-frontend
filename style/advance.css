@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 5fr 5fr;
+}
+
+nav {
+    background: #f1f1f1;
+    margin: 8px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+a {
+    color: rgba(0 ,0 ,0 ,0.87);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    float: left;
+    width: 30%;
+}
+
+
+#tittle {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+#form {
+    font-size: 20px;
+    margin: 25px 50px;
+}
+#form form div {
+    margin: 20px 20px 20px 0;
+}
+#form form div label {
+    display: inline-block;
+    width: 15%;
+}
+#form form div input {
+    width: 40%;
+    height: 30px;
+}
+
+#form form div span {
+    color: rgba(0, 0, 0, 0.89);
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    float: right;
+    margin-right: 45%;
+    box-shadow: none;
+    background-color: #4d90fe;
+    line-height: 100%;
+    height: 30px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+}
+
+input[type="submit"]:hover {
+    background: #4285f4;
+}
+
+.line {
+    margin: 18px 0;
+    clear: both;
+    border-top: 1px solid #ebebeb;
+}

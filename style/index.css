@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+
+}
+body {
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+}
+
+#bar {
+
+}
+
+#bar ul {
+    list-style: none;
+    float: right;
+}
+
+#bar ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    color: rgba(0 ,0 ,0 ,0.87);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#google {
+    color: #4285f4;
+}
+#google img {
+    width: 20%;
+    margin-top: 5%;
+}
+
+#search {
+
+}
+
+#search form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#search-input {
+    display: inline-block;
+    border: 1px solid #e3e5e8;
+    width: 40%;
+    height: 20%;
+    margin-bottom: 3%;
+    border-radius: 34px;
+}
+
+#search-input:hover {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.27);
+}
+
+#search input[type="text"] {
+    width: 90%;
+    height: 90%;
+    border: 0;
+    outline:none;
+}
+
+#search input[type="text"]:focus {
+    border: 0;
+}
+
+#submit-button {
+    display: inline-block;
+    width: 60%;
+    height: 50%;
+}
+
+#search input[type="submit"] {
+    width: 20%;
+    height: 40%;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+#search input[type="submit"]:hover {
+    box-shadow: 0 0 5px rgba(0 0 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
